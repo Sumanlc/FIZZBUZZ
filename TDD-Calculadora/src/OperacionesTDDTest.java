@@ -15,6 +15,20 @@ class OperacionesTDDTest {
         int resultado = operaciones.suma("1");
         assertEquals(1, resultado);
     }
+    @Test
+    public void test3() {
+        OperacionesTDD operaciones = new OperacionesTDD();
+        int resultado = operaciones.suma("1,2");
+        assertEquals(3, resultado);
+    }
+    @Test
+    public void test4() {
+        OperacionesTDD operaciones = new OperacionesTDD();
+        int resultado = operaciones.suma("1,1,2");
+        assertEquals(4, resultado);
+    }
+
+
 
 
 
