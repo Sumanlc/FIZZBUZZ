@@ -1,13 +1,13 @@
 public class FizzBuzz {
     public String calcular(int numero) {
-        if (numero == 1) {
-            return "1";
-        } else if (numero == 2) {
-            return "2";
+        if (numero % 15 == 0) {
+            return "FizzBuzz";
         } else if (numero % 3 == 0) {
             return "Fizz";
+        } else if (numero % 5 == 0) {
+            return "Buzz";
         } else {
-            return "";
+            return Integer.toString(numero);
         }
     }
 }
