@@ -18,4 +18,12 @@ class FizzBuzzTest {
         assertEquals("2", resultado);
     }
 
+    @Test
+    public void test3() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String resultado = fizzBuzz.calcular(3);
+        assertEquals("Fizz", resultado);
+    }
+
+
 }
