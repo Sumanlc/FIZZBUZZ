@@ -46,5 +46,32 @@ class FizzBuzzTest {
         assertEquals("Fizz", resultado);
     }
 
+    @Test
+    public void test7() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String resultado = fizzBuzz.calcular(7);
+        assertEquals("7", resultado);
+    }
+
+    @Test
+    public void test8() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String resultado = fizzBuzz.calcular(8);
+        assertEquals("8", resultado);
+    }
+
+    @Test
+    public void test9() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String resultado = fizzBuzz.calcular(9);
+        assertEquals("Fizz", resultado);
+    }
+    @Test
+    public void test10() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String resultado = fizzBuzz.calcular(10);
+        assertEquals("Buzz", resultado);
+    }
+
 
 }
